@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publisher</title>
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="show_nav"></div>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-3">
+            <h5 class="heading mb-3">Filter</h5>
+
+            <div class="card px-3 mb-3 shadow-sm">
+              <div class="border-bottom py-3 acordion open d-flex justify-content-between" data-content="#content1">
+                <p class="heading m-0">Category</p><i class="fa fa-chevron-right align-self-center"></i>
+              </div>
+
+              <div class="py-3 px-2" id="content1">
+                <form action="">
+                  <p class="custom-control custom-checkbox text-mc">
+                    <input type="checkbox" class="custom-control-input" id="Checkone">
+                    <label class="custom-control-label text-blue" for="Checkone">Checkone</label>
+                  </p>
+                  <p class="custom-control custom-checkbox text-mc">
+                    <input type="checkbox" class="custom-control-input" id="Checktwo">
+                    <label class="custom-control-label text-blue" for="Checktwo">Checktwo</label>
+                  </p>
+                  <p class="custom-control custom-checkbox text-mc">
+                    <input type="checkbox" class="custom-control-input" id="check3">
+                    <label class="custom-control-label text-blue" for="check3">Check3</label>
+                  </p>
+                  <p class="custom-control custom-checkbox text-mc">
+                    <input type="checkbox" class="custom-control-input" id="Check4">
+                    <label class="custom-control-label text-blue" for="Check4">Check4</label>
+                  </p>
+                </form>
+                <a href="" class="text-mc font-weight-bold">See More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h5 class="heading mb-3">Publisher</h5>
+
+            <form action="" class="mb-3">
+              <div class="input-group text-blue">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-search"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Search">
+              </div>              
+            </form>
+
+            <div class="card p-3 mb-3 shadow-sm">
+              <div class="d-flex">
+                <img class="rounded-circle" src="imgs/02.jpg" alt="..." height="60" width="60">
+
+                <div class="col pr-0">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <h5 class="heading mr-4">Name</h5>
+                      <div class=""><i class="fa fa-marker text-mc"></i> 200</div>
+                    </div>
+
+                    <div class="text-mc">
+                      <i class="favorite far fa-heart p-1 bg-white rounded shadow-sm mr-2"></i>
+                      <i class="fa fa-plus p-1 bg-white rounded-circle shadow-sm"></i>
+                    </div>
+                  </div>
+                  <p class="text-blue w-75">
+                    This is a wider card with supporting text below as a natural additional content
+                    This is a wider card with supporting text below as a natural additional content.
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <div class="text-mc">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+
+                    <div>
+                      <i class="fab fa-facebook-square"></i>
+                      <i class="fab fa-instagram"></i>
+                      <i class="fab fa-twitter-square"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a class="btn d-block w-50 mt-4 mx-auto bg-mc text-white font-weight-bold" href="">SEE MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="show_footer"></div>
+
+    <!-- End Body -->
+    <script src="js/jquery.gp-g"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      $(function () {
+        $("#show_nav").load("index.html nav");
+        $("#show_footer").load("index.html footer");
+      });
+    </script>
+  </body>
+</html>

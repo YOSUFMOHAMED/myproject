@@ -1,0 +1,113 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+:root {
+    --mainColor: #df681b;
+    --mainbg: rgba(234, 165, 81, 0.1);
+    --blue: rgb(19, 16, 69);
+}
+
+.bg-blue {background-color: var(--blue)}
+.bg-mc {background-color: var(--mainColor) !important}
+.bg-mbg {background-color: var(--mainbg) !important}
+
+.text-bold {font-weight: bold;}
+.text-blue {color: var(--blue)}
+.text-mc {color: var(--mainColor) !important}
+
+.border-dashed {border: 2px dashed}
+
+.heading {
+    font-weight: bold;
+    color: var(--blue);
+}
+
+a:hover {
+    color:unset;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+section {
+    padding: 20px 0;
+}
+body {
+    min-height: 1000px;
+}
+/* Nav */
+nav i {
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.navbar .nav-link {color: #fff !important;}
+
+.navbar .nav-link.active span {
+    color: var(--mainColor) !important;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+/* Header */
+header {
+    height: calc(100vh - 56px);
+    background: center no-repeat;
+    background-size: cover;
+    background-image: url('../imgs/bg1.jpg');
+    color: #fff;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Carousel */
+.carousel-control-next, .carousel-control-prev {width: 5%;}
+.carousel-indicators {
+    margin: 0;
+    bottom: -20px;
+    margin-bottom: 8px;
+}
+.carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    border: 1px solid var(--mainColor);
+    border-radius: 50%;
+    opacity: 1;
+}
+.carousel-indicators li.active {background-color: var(--mainColor);}
+/* nav Tabs */
+.nav-tabs {border-color: var(--mainColor);}
+.nav-tabs .nav-link {
+    color: var(--blue);
+    font-weight: bold;
+}
+.nav-tabs .nav-link.active {
+    background-color: var(--mainColor);
+    color: #fff;
+    border-color: var(--mainColor);
+}
+
+.nav-pills .nav-link {color: var(--blue);}
+.nav-pills .nav-link.active {
+    color: var(--mainColor);
+    background-color: transparent;
+}
+
+.acordion {cursor: pointer;}
+.acordion i {transition: .3s;}
+.acordion.open > i {transform: rotate(90deg);}
+.acordion-content {
+    display: none;
+}
+
+.favorite {
+    cursor: pointer;
+    /* font-size: 20px; */
+}

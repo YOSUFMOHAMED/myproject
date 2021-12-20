@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="show_nav"></div>
+
+    <section>
+      <div class="container">
+        <div class="d-flex mb-3">
+          <div class="card col-md-4 col-lg-3 py-4 text-center shadow-sm text-mc">
+            <div class="">
+              <img class="rounded-circle mb-3" src="imgs/02.jpg" alt="" height="80" width="80">
+              <h5 class="card-title text-blue font-weight-bold">User Name</h5>
+              <p class="card-text">Reader</p>
+              <hr>
+              <div class="d-flex justify-content-between">
+                <div class="">
+                  <p>50K</p>
+                  <p class="text-blue">Books</p>
+                </div>
+                <div class="">
+                  <p>50K</p>
+                  <p class="text-blue">Favorite</p>
+                </div>
+                <div class="">
+                  <p>50K</p>
+                  <p class="text-blue">Follow</p>
+                </div>
+              </div>
+              <a class="btn bg-mc text-white" href="/">Edit Profile</a>
+            </div>
+          </div>
+
+          <div class="col pr-0 d-none d-md-block">
+            <img class="rounded" src="imgs/05.jpg" alt="" height="360px" width="100%">
+          </div>
+        </div>
+
+        <div class="d-flex">
+          <div class="col-4 col-lg-3 px-0">
+            <div class="card px-3 shadow-sm">
+              <div class="border-bottom py-3 acordion d-flex justify-content-between" data-content="#content1">
+                <p class="heading m-0"><i class="fa fa-book text-primary"></i> Books</p>
+                <i class="fa fa-chevron-right align-self-center"></i>
+              </div>
+
+              <div class="p-1 text-blue acordion-content" id="content1">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" id="v-pills-BookDigital-tab" data-toggle="pill" href="#v-pills-BookDigital">Digital Books</a>
+                  <a class="nav-link" id="v-pills-BookRegister-tab" data-toggle="pill" href="#v-pills-BookRegister">Register Books</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card px-3 shadow-sm">
+              <div class="border-bottom py-3 acordion d-flex justify-content-between" data-content="#content2">
+                <p class="heading m-0"><i class="fa fa-heart text-mc"></i> Favorite</p>
+                <i class="fa fa-chevron-right align-self-center"></i>
+              </div>
+
+              <div class="p-1 text-blue acordion-content" id="content2">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" id="v-pills-FavoriteBook-tab" data-toggle="pill" href="#v-pills-FavoriteBook">Favorite Books</a>
+                  <a class="nav-link" id="v-pills-FavoriteAuthor-tab" data-toggle="pill" href="#v-pills-FavoriteAuthor">Favorite Authors</a>
+                  <a class="nav-link" id="v-pills-FavoritePublisher-tab" data-toggle="pill" href="#v-pills-FavoritePublisher">Favorite Publisher</a>
+                  <a class="nav-link" id="v-pills-FavoritePosts-tab" data-toggle="pill" href="#v-pills-FavoritePosts">Favorite Posts</a>
+                  <a class="nav-link" id="v-pills-FavoriteReviews-tab" data-toggle="pill" href="#v-pills-FavoriteReviews">Favorite Reviews</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card px-3 shadow-sm">
+              <div class="border-bottom py-3 acordion d-flex justify-content-between" data-content="#content3">
+                <p class="heading m-0"><i class="fa fa-user-friends text-success"></i> Followers</p>
+                <i class="fa fa-chevron-right align-self-center"></i>
+              </div>
+
+              <div class="p-1 text-blue acordion-content" id="content3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" id="v-pills-MyFollowers-tab" data-toggle="pill" href="#v-pills-MyFollowers">My Followers</a>
+                  <a class="nav-link" id="v-pills-BlockedFollowers-tab" data-toggle="pill" href="#v-pills-BlockedFollowers">Blocked Followers</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card px-3 shadow-sm">
+              <div class="border-bottom py-3 acordion d-flex justify-content-between" data-content="#content4">
+                <p class="heading m-0"><i class="fa fa-star text-warning"></i> Points</p>
+                <i class="fa fa-chevron-right align-self-center"></i>
+              </div>
+
+              <div class="p-1 text-blue acordion-content" id="content4">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link" id="v-pills-MyFollowers-tab" data-toggle="pill" href="#v-pills-MyFollowers">My Followers</a>
+                  <a class="nav-link" id="v-pills-BlockedFollowers-tab" data-toggle="pill" href="#v-pills-BlockedFollowers">Blocked Followers</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card py-2 shadow-sm">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link heading m-0" id="v-pills-Acivites-tab" data-toggle="pill" href="#v-pills-Acivites"><i class="fa fa-smile text-success"></i> Acivites</a>
+              </div>
+            </div>
+
+            <div class="card py-2 shadow-sm">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link heading m-0 active" id="v-pills-About-tab" data-toggle="pill" href="#v-pills-About"><i class="far fa-user text-mc"></i> About</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col pr-0">YOSUFMOHAMED YOSUFMOHAMED
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade" id="v-pills-BookDigital" role="tabpanel">BookDigital</div>
+              <div class="tab-pane fade" id="v-pills-BookRegister" role="tabpanel">BookRegister</div>
+              <div class="tab-pane fade" id="v-pills-FavoriteBook" role="tabpanel">FavoriteBook</div>
+              <div class="tab-pane fade" id="v-pills-FavoriteAuthor" role="tabpanel">FavoriteAuthor</div>
+              <div class="tab-pane fade" id="v-pills-FavoritePublisher" role="tabpanel">FavoritePublisher</div>
+              <div class="tab-pane fade" id="v-pills-FavoritePosts" role="tabpanel">FavoritePosts</div>
+              <div class="tab-pane fade" id="v-pills-FavoriteReviews" role="tabpanel">FavoriteReviews</div>
+              <div class="tab-pane fade" id="v-pills-MyFollowers" role="tabpanel">MyFollowers</div>
+              <div class="tab-pane fade" id="v-pills-BlockedFollowers" role="tabpanel">BlockedFollowers</div>
+              <div class="tab-pane fade" id="v-pills-Acivites" role="tabpanel">Acivites</div>
+              <div class="tab-pane fade show active" id="v-pills-About" role="tabpanel">
+                <ul class="list-group p-2 shadow-sm text-blue list-group-flush">
+                  <li class="list-group-item heading m-0">About</li>
+                  <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore beatae debitis excepturi, Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore beatae debitis quis delectus optio illum atque praesentium error culpa libero assumenda? Molestiae ab odit fuga, eos quo amet eius</li>
+                  <li class="list-group-item"><div class="row"><div class="col-6 col-md-4 heading">Country</div>Egypt</div></li>
+                  <li class="list-group-item"><div class="row"><div class="col-6 col-md-4 heading">Published Books</div>500</div></li>
+                  <li class="list-group-item"><div class="row"><div class="col-6 col-md-4 heading">Dealing With Author</div>30</div></li>
+                  <li class="list-group-item"><div class="row"><div class="col-6 col-md-4 heading">Location</div>Giza</div></li>
+                  <li class="list-group-item"><div class="row"><div class="col-6 col-md-4 heading">Phone</div>01111111111</div></li>
+                  <li class="list-group-item"><div class="row"><div class="col-6 col-md-4 heading">Social Media</div> </div></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="show_footer"></div>
+    <!-- End Body -->
+    <script src="js/jquery.gp-g"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      $(function () {
+        $("#show_nav").load("index.html nav");
+        $("#show_footer").load("index.html footer");
+      });
+    </script>
+  </body>
+</html>

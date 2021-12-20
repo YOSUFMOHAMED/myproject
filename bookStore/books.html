@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="show_nav"></div>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-3">
+            <h5 class="heading mb-3">Filter</h5>
+
+            <div class="card px-3 mb-3 shadow-sm">
+              <div class="border-bottom py-3 acordion open d-flex justify-content-between" data-content="#content1">
+                <p class="heading m-0">Category</p><i class="fa fa-chevron-right align-self-center"></i>
+              </div>
+
+              <div class="py-3 px-2" id="content1">
+                <form action="">
+                  <p class="custom-control custom-checkbox text-mc">
+                    <input type="checkbox" class="custom-control-input" id="Checkone">
+                    <label class="custom-control-label text-blue" for="Checkone">Checkone</label>
+                  </p>
+                  <p class="custom-control custom-checkbox text-mc">
+                    <input type="checkbox" class="custom-control-input" id="Checktwo">
+                    <label class="custom-control-label text-blue" for="Checktwo">Checktwo</label>
+                  </p>
+                  <p class="custom-control custom-checkbox text-mc">
+                    <input type="checkbox" class="custom-control-input" id="check3">
+                    <label class="custom-control-label text-blue" for="check3">Check3</label>
+                  </p>
+                  <p class="custom-control custom-checkbox text-mc">
+                    <input type="checkbox" class="custom-control-input" id="Check4">
+                    <label class="custom-control-label text-blue" for="Check4">Check4</label>
+                  </p>
+                </form>
+                <a href="" class="text-mc font-weight-bold">See More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="d-flex justify-content-between">
+              <h5 class="heading mb-3">Books</h5>
+
+              <div class="text-blue">
+                2000 Book
+                <!-- <i class="fas fa-th-large ml-4"></i> <i class="fas fa-list"></i> -->
+              </div>
+            </div>
+
+            <form action="" class="mb-3">
+              <div class="input-group text-blue">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-search"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Search">
+              </div>              
+            </form>
+
+            <div class="row row-cols-2 row-cols-lg-4">
+              <div class="col mb-3">
+                <div class="card h-100 p-2 shadow-sm">
+                  <i class="favorite far fa fa-heart p-1 m-1 bg-white text-mc rounded position-absolute align-self-end"></i>
+                  <img src="imgs/bg1.jpg" class="card-img-top rounded" alt="..." height="180">
+                  <div class="py-2 text-center">
+                    <h5 class="card-title text-blue">Book title</h5>
+                    <span class="text-mc font-weight-bold mr-2">199$</span> <del class="text-blue"> 250$</del>
+                  </div>
+                  <div class="text-mc d-flex justify-content-between">
+                    <div><i class="fa fa-book-open"></i> <span class="text-blue">Readed</span></div>
+                    <div>50</div>
+                  </div>
+                  <div class="text-mc d-flex justify-content-between">
+                    <div><i class="fa fa-dollar-sign mx-1"></i> <span class="text-blue">Sold</span></div>
+                    <div>50</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col mb-3">
+                <div class="card h-100 p-2 shadow-sm">
+                  <i class="favorite far fa fa-heart p-1 m-1 bg-white text-mc rounded position-absolute align-self-end"></i>
+                  <img src="imgs/bg1.jpg" class="card-img-top rounded" alt="..." height="180">
+                  <div class="py-2 text-center">
+                    <h5 class="card-title text-blue">Book title</h5>
+                    <span class="text-mc font-weight-bold mr-2">199$</span> <del class="text-blue"> 250$</del>
+                  </div>
+                  <div class="text-mc d-flex justify-content-between">
+                    <div><i class="fa fa-book-open"></i> <span class="text-blue">Readed</span></div>
+                    <div>50</div>
+                  </div>
+                  <div class="text-mc d-flex justify-content-between">
+                    <div><i class="fa fa-dollar-sign mx-1"></i> <span class="text-blue">Sold</span></div>
+                    <div>50</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col mb-3">
+                <div class="card h-100 p-2 shadow-sm">
+                  <i class="favorite far fa fa-heart p-1 m-1 bg-white text-mc rounded position-absolute align-self-end"></i>
+                  <img src="imgs/bg1.jpg" class="card-img-top rounded" alt="..." height="180">
+                  <div class="py-2 text-center">
+                    <h5 class="card-title text-blue">Book title</h5>
+                    <span class="text-mc font-weight-bold mr-2">199$</span> <del class="text-blue"> 250$</del>
+                  </div>
+                  <div class="text-mc d-flex justify-content-between">
+                    <div><i class="fa fa-book-open"></i> <span class="text-blue">Readed</span></div>
+                    <div>50</div>
+                  </div>
+                  <div class="text-mc d-flex justify-content-between">
+                    <div><i class="fa fa-dollar-sign mx-1"></i> <span class="text-blue">Sold</span></div>
+                    <div>50</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col mb-3">
+                <div class="card h-100 p-2 shadow-sm">
+                  <i class="favorite far fa fa-heart p-1 m-1 bg-white text-mc rounded position-absolute align-self-end"></i>
+                  <img src="imgs/bg1.jpg" class="card-img-top rounded" alt="..." height="180">
+                  <div class="py-2 text-center">
+                    <h5 class="card-title text-blue">Book title</h5>
+                    <span class="text-mc font-weight-bold mr-2">199$</span> <del class="text-blue"> 250$</del>
+                  </div>
+                  <div class="text-mc d-flex justify-content-between">
+                    <div><i class="fa fa-book-open"></i> <span class="text-blue">Readed</span></div>
+                    <div>50</div>
+                  </div>
+                  <div class="text-mc d-flex justify-content-between">
+                    <div><i class="fa fa-dollar-sign mx-1"></i> <span class="text-blue">Sold</span></div>
+                    <div>50</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a class="btn d-block w-50 mt-4 mx-auto bg-mc text-white font-weight-bold" href="">SEE MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="show_footer"></div>
+    <!-- End Body -->
+    <script src="js/jquery.gp-g"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      $(function () {
+        $("#show_nav").load("index.html nav");
+        $("#show_footer").load("index.html footer");
+      });
+    </script>
+  </body>
+</html>

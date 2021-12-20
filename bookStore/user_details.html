@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>details</title>
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="show_nav"></div>
+    
+    <section>
+      <div class="container">
+        <div class="d-flex mb-3">
+          <div class="card col py-4 text-center shadow text-mc">
+            <div class="">
+              <img class="rounded-circle mb-3" src="imgs/02.jpg" alt="" height="80" width="80">
+              <h5 class="card-title text-blue font-weight-bold">User Name</h5>
+              <p class="card-text">reader</p>
+              <hr>
+              <div class="d-flex justify-content-between">
+                <div class="">
+                  <p>50K</p>
+                  <p class="text-blue">Books</p>
+                </div>
+                <div class="">
+                  <p>50K</p>
+                  <p class="text-blue">Favorite</p>
+                </div>
+                <div class="">
+                  <p>50K</p>
+                  <p class="text-blue">Follow</p>
+                </div>
+              </div>
+              <a class="btn bg-mc text-white" href="/">Public Group</a>
+              <a class="btn bg-mc text-white" href="/">Follow</a>
+            </div>
+          </div>
+
+          <div class="col-9 pr-0">
+            <img class="rounded" src="imgs/05.jpg" alt="">
+
+            <div class="nav nav-tabs text-mc shadow" id="nav-tab">
+              <a class="nav-link active" data-toggle="tab" href="#nav-posts"><i class="far fa-edit"></i> Posts</a>
+              <a class="nav-link" data-toggle="tab" href="#nav-books"><i class="fa fa-book"></i> books</a>
+              <a class="nav-link" data-toggle="tab" href="#nav-reviews"><i class="far fa-star"></i> reviews</a>
+              <a class="nav-link" data-toggle="tab" href="#nav-about"><i class="far fa-user"></i> about</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex mb-3">
+          <div class="">
+            <p class="heading">Suggested Books</p>
+
+            <div class="row row-cols-3 row-cols-lg-1">
+              <div class="col mb-3">
+                <div class="card h-100 p-2 shadow">
+                  <i class="far fa-heart p-1 bg-white rounded shadow text-mc m-1 position-absolute align-self-end"></i>
+                  <img src="imgs/bg1.jpg" class="card-img-top rounded" alt="..." height="170">
+                  <div class="card-body px-1 text-center">
+                    <h5 class="card-title text-blue">Book title</h5>
+                    <p><span class="text-mc font-weight-bold mr-3">199$</span> <del class="text-blue"> 250$</del></p>
+                    <a class="btn bg-mc text-white" href="">pay now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col mb-3">
+                <div class="card h-100 p-2 shadow">
+                  <i class="far fa-heart p-1 bg-white rounded shadow text-mc m-1 position-absolute align-self-end"></i>
+                  <img src="imgs/bg1.jpg" class="card-img-top rounded" alt="..." height="170">
+                  <div class="card-body px-1 text-center">
+                    <h5 class="card-title text-blue">Book title</h5>
+                    <p><span class="text-mc font-weight-bold mr-3">199$</span> <del class="text-blue"> 250$</del></p>
+                    <a class="btn bg-mc text-white" href="">pay now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-9 pr-0">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-posts" role="tabpanel">
+                ...
+              </div>
+              
+              <div class="tab-pane fade" id="nav-books" role="tabpanel">..</div>
+              <div class="tab-pane fade" id="nav-reviews" role="tabpanel">...</div>
+              <div class="tab-pane fade" id="nav-about" role="tabpanel">....</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div id="show_footer"></div>
+    <!-- End Body -->
+    <script src="js/jquery.gp-g"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      $(function () {
+        $("#show_nav").load("index.html nav");
+        $("#show_footer").load("index.html footer");
+      });
+    </script>
+  </body>
+</html>
